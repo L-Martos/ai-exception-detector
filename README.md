@@ -1,17 +1,12 @@
-![Python](https://img.shields.io/badge/Python-3.10+-blue)
-![Streamlit](https://img.shields.io/badge/UI-Streamlit-red)
-![AI](https://img.shields.io/badge/AI-OpenAI-green)
+---
 
-# AI Exception Detector
+## Validation Checks Performed
 
-A simple Streamlit app that checks a CSV file for common data issues (missing values, duplicates, and future/invalid dates).
+The application analyzes uploaded datasets and flags common data quality risks:
 
-## App Preview
-![App Screenshot](app_screenshot.png)
+- Missing values detection
+- Duplicate encounter or claim IDs
+- Future-dated records
+- Basic structural validation
 
-## Run locally (Mac / Windows)
-
-### 1) Install dependencies
-```bash
-pip install -r requirements.tx
-streamlit run app.py
+These checks simulate real-world data validation performed during onboarding and system implementation projects.
